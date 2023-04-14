@@ -2,17 +2,33 @@
 /* CSS Document */
 
 
+body {
+  
+font-family: 'Open Sans', sans-serif;
+  
+  
+}
+
 .ContentPane {
   
   margin: 0 auto;
-  margin-top: -300px;
+  margin-top: -500px;
   
    background-color: rgba(0,0,0,.1);
   border-radius: 5px;
-  max-width: 50%;
- height: 200px;
+  max-width: 90%;
+ height: 300px;
   color: #fff;
-    padding: 20px
+    padding: 20px;
+  font-size: 2rem;
+  text-align: center
+}
+
+.ContentPane h1 {
+  
+ font-size: 4rem;
+  font-weight: 700;
+  
 }
 
 
@@ -20,4 +36,12 @@
   
   
   margin-bottom: 50px;
+}
+
+.bg-footer {
+  padding-top: 20px;
+  padding-bottom: 50px ;
+  margin-top: 20px;
+  background-color: #0069d9; 
+  margin-bottom: 10px;
 }
